@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+        UserName <input type="text" placeholder="username"></input><br>
+        PassWord <input type="text" placeholder="password"></input><br>
+	<button type="button" placeholder="Login">LOGIN</button>
+    </form>
+  </body>
+</html>
+
+
+======>>ROUTE 53 <<========
+like,
+http----->>>> we use 80 port 
+https---->>>> we use 443 port
+DNS------>>>> we use 53 port [hence the 53 name come]
+
+
+1. domain regisstration--->>we register an account[like chethanbr.com]----->>once we register we have to pay at that time only---->>it provides the scalability feature.
+
+2. DNS operation----->>we login using ip[20.0.0.0],in the name of hosted zone
+
+3. Health check---->>for the VPC, by using the endpoint[check up of the health b/w the gap]--->> it checks the health of the server regarding the downing of the server .
+
+Health check------>>Availability--->>cloudwatch or SNS[we could integrate to in these two]-->>give the health check
+
+4. Routing Policies---->>> done using the CloudFront[based on the latency, which ever server go the less traffic it will give the path to the user to access that path]
+
+
+
+=======>>>
+		DNS[ICANN]			Mobile[TRAI]
+	---------------------		-----------------------
+[ICANN-International corporation for asinging Names and Numbers]
+[TRAI- Telecommunication Regulatory Athority of India]
+
+Network providers[TRAI]-
+
+
+=====>>> 10/09/2024
+	------------
+
